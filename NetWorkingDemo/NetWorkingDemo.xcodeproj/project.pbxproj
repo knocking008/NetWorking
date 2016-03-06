@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF1C976F1C8BFA700073EC95 /* QQDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1C976E1C8BFA700073EC95 /* QQDownload.m */; };
 		BFF8A0451C8AD5A7006D37D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF8A0441C8AD5A7006D37D5 /* main.m */; };
 		BFF8A0481C8AD5A7006D37D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF8A0471C8AD5A7006D37D5 /* AppDelegate.m */; };
 		BFF8A04B1C8AD5A7006D37D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF8A04A1C8AD5A7006D37D5 /* ViewController.m */; };
@@ -25,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF1C976D1C8BFA700073EC95 /* QQDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQDownload.h; sourceTree = "<group>"; };
+		BF1C976E1C8BFA700073EC95 /* QQDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQDownload.m; sourceTree = "<group>"; };
 		BFF8A0401C8AD5A7006D37D5 /* NetWorkingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetWorkingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF8A0441C8AD5A7006D37D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BFF8A0461C8AD5A7006D37D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,6 +96,8 @@
 				BFF8A04A1C8AD5A7006D37D5 /* ViewController.m */,
 				BFF8A05A1C8AD624006D37D5 /* HTTPConnection.h */,
 				BFF8A05B1C8AD624006D37D5 /* HTTPConnection.m */,
+				BF1C976D1C8BFA700073EC95 /* QQDownload.h */,
+				BF1C976E1C8BFA700073EC95 /* QQDownload.m */,
 				BFF8A05D1C8AD675006D37D5 /* HTTPTool.h */,
 				BFF8A05E1C8AD675006D37D5 /* HTTPTool.m */,
 				BFF8A0C01C8B3D19006D37D5 /* NSBannerModel.h */,
@@ -214,6 +219,7 @@
 				BFF8A0BC1C8AE2C4006D37D5 /* AFSecurityPolicy.m in Sources */,
 				BFF8A0BA1C8AE2C4006D37D5 /* AFHTTPSessionManager.m in Sources */,
 				BFF8A0451C8AD5A7006D37D5 /* main.m in Sources */,
+				BF1C976F1C8BFA700073EC95 /* QQDownload.m in Sources */,
 				BFF8A0C21C8B3D19006D37D5 /* NSBannerModel.m in Sources */,
 				BFF8A05C1C8AD624006D37D5 /* HTTPConnection.m in Sources */,
 			);
@@ -364,6 +370,7 @@
 				BFF8A0591C8AD5A7006D37D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
